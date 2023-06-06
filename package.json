@@ -1,0 +1,27 @@
+{
+  "name": "achievemate",
+  "version": "1.0.0",
+  "description": "Track games you own, want to buy, and your achievements all in one place!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierTwo/achievemate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierTwo/achievemate/issues"
+  },
+  "homepage": "https://github.com/PierTwo/achievemate#readme",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
